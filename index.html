@@ -50,6 +50,8 @@
           <ul
             class="
               pt-4
+              lg:relative
+              md:relative
               fixed
               left-0
               px-6
@@ -100,16 +102,16 @@
                 <p class="tracking-wide uppercase lg:text-left text-center text-blue-500">
                     just one link, let's create !
                 </p>
-                <h1 class="font-bold text-5xl text-center lg:text-6xl tracking-wide pr-4 capitalize">
+                <h1 class="font-bold lg:text-start text-5xl text-center lg:text-6xl tracking-wide pr-4 capitalize">
                     the amazing link for everything
                 </h1>
-                <p class="text-gray-400 text-center lg:text-left tracking-wide text-xl">
+                <p class="text-gray-400 lg:text-left text-center lg:text-left tracking-wide text-xl">
                     Sell everything, create de membership for fans, get closer to the audience. Do it easily
                 </p>
                 <div class="form">
-                    <form class="lg:flex block space-y-4" action="">
-                        <input type="text" name="" value="bee.link/yourname" id="" class="p-4 w-full border-2 border-inherit rounded-full text-black">
-                        <input type="submit" value="Create my link" class="bg-blue-600 cursor-pointer w-full  lg:ml-[-50px] p-3 text-white rounded-full capitalize">
+                    <form class="lg:flex block " action="">
+                        <input type="text" name="" value="bee.link/yourname" id="" class="p-4 lg:w-1/2 w-full border-2 border-inherit rounded-full text-black">
+                        <input type="submit" value="Create my link" class="bg-blue-600 cursor-pointer lg:w-48 w-full lg:mt-0 mt-4 lg:ml-[-50px] p-3 text-white rounded-full capitalize">
                     </form>
                 <p class="text-gray-400 mt-2 lg:text-left text-center">
                     It's free and it takes less than a minute
@@ -284,7 +286,7 @@
     </section>
     <section class="space-y-32 mx-8">
         <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
-            <div class="img-stat">
+            <div class="img-stat flex justify-center">
                 <img src="undraw_editable_re_4l94.svg" alt="">
             </div>
             <div class="space-y-8 ">
@@ -304,9 +306,6 @@
         </div>
 
         <div class="grid lg:grid-cols-2 grid-cols-1 gap-16">
-            <div class="img-stat">
-                <img src="undraw_editable_re_4l94.svg" alt="">
-            </div>
             <div class="space-y-8 ">
                 <div class="lg:text-left text-center tracking-wide text-sm text-blue-500 font-bold uppercase">
                     insight from audience
@@ -321,23 +320,26 @@
                     <button class="py-4 px-4 rounded-full bg-blue-500 text-white capitalize">sign up free</button>
                 </div>
             </div>
+            <div class="img-stat flex justify-center">
+                <img src="undraw_editable_re_4l94.svg" alt="">
+            </div>
         </div>
     </section>
-    <section class="space-y-16 px-8">
-        <div class="space-y-8 lg:mx-24 text-center">
+    <section class="space-y-16 lg:p-0 px-8">
+        <div class="space-y-8 lg:mx-16 lg:text-left text-center">
 
-            <div class="lg:text-left text-center tracking-wide text-sm text-blue-500 font-bold uppercase">
+            <div class="text-center tracking-wide text-sm text-blue-500 font-bold uppercase">
                 insight from audience
             </div>
-            <h2 class="lg:text-7xl text-4xl lg:mx-16 font-bold">
+            <h2 class="lg:text-7xl text-4xl lg:mx-32 text-center font-bold">
                 Trusted by some of the best in the business
             </h2>
-            <p class="text-gray-400 text-lg">
+            <p class="text-gray-400 text-lg lg:text-center">
                 Join 24,000+ creators from around the world
             </p>
         </div>
     </section>
-    <div class="bg-slate-900 flex align-center lg:mx-16 justify-center rounded-2xl ">
+    <div class="bg-slate-900 flex align-center lg:mx-22 md:mx-16 justify-center rounded-2xl ">
         <div class="lg:flex p-4 text-white  space-x-16 h-72  justify-between items-center">
             <div class="space-y-6 ">
                 <h2 class="font-bold text-4xl">
@@ -355,18 +357,18 @@
             </div>
         </div>
     </div>
-    <footer class="lg:flex justify-between items-center py-8">
+    <footer class="lg:flex  justify-between items-center py-8">
         <div class="font-bold px-6">
-            <h2 class="font-bold text-2xl">Bee.link</h2>
+            <h2 class="font-bold md:text-center text-2xl">Bee.link</h2>
         </div>
-        <ul class="lg:flex m-2 text-center space-y-4 space-x-6">
-            <li><a href="#" class="text-gray-600 capitalize">templates</a></li>
-            <li><a href="#" class="text-gray-600 capitalize">blogs</a></li>
-            <li><a href="#" class="text-gray-600 capitalize">pricings</a></li>
-            <li><a href="#" class="text-gray-600 capitalize">fAQ</a></li>
-            <li><a href="#" class="text-gray-600 capitalize">help</a></li>
+        <ul class="lg:flex md:mx-64 m-2 text-center md:flex lg:flex  justify-between items-center lg:space-x-6">
+            <li class="lg:mt-0 mt-3"><a href="#" class="text-gray-600 capitalize">templates</a></li>
+            <li class="lg:mt-0 mt-3"><a href="#" class="text-gray-600 capitalize">blogs</a></li>
+            <li class="lg:mt-0 mt-3"><a href="#" class="text-gray-600 capitalize">pricings</a></li>
+            <li class="lg:mt-0 mt-3"><a href="#" class="text-gray-600 capitalize">fAQ</a></li>
+            <li class="lg:mt-0 mt-3"><a href="#" class="text-gray-600 capitalize">help</a></li>
         </ul>
-        <div class="flex text-center justify-center lg:justify-between items-center text-2xl text-gray-600 space-x-4">
+        <div class="flex text-center lg:mt-0 mt-4 justify-center lg:justify-between items-center text-2xl text-gray-600 space-x-4">
             <i >
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="currentColor" d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3S645.3 585.4 645.3 512S585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9S717.1 398.5 717.1 512S625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9s47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z"/></svg>
             </i>
