@@ -4,19 +4,10 @@ const menu = document.querySelector('#menu');
 
 button.addEventListener('click', () => {
   menu.classList.toggle('hidden');
+  menu.style.transition = "linear 3s"
   
 });
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  navigation: {
-    nextEl: ".swiper-button-next",
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+
 
 (function ($) {
   $(function () {
@@ -35,7 +26,7 @@ var swiper = new Swiper(".mySwiper", {
 
     var swiper = new Swiper('.mySwiper', {
       slidesPerView: sliderView,
-      spaceBetween: 30,
+      spaceBetween: 20,
       navigation:{
         nextEl: ".swiper-button-next",
       },
